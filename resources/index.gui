@@ -1,0 +1,7 @@
+<svg class="background">
+  <text class="pirate-date" id="day" />
+  <text id="suffix" />
+  <text class="pirate-date" id="hour" />
+  <text class="pirate-date" id="minute" />
+  <text id="pm" />
+</svg>

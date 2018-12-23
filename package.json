@@ -1,0 +1,30 @@
+{
+  "name": "fitbit-sot-time",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0",
+    "@fitbit/sdk-cli": "^1.5.0",
+    "fitbit-sdk-types": "^3.0.0",
+    "typescript": "3.2.2"
+  },
+  "fitbit": {
+    "appUUID": "8d61ec54-7045-405e-8893-d7ba384f6118",
+    "appType": "app",
+    "appDisplayName": "SoT Time",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

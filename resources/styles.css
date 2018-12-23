@@ -1,0 +1,39 @@
+.background {
+  viewport-fill: gray;
+}
+
+.pirate-date {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 2;
+  text-anchor: start;
+  fill: white;
+}
+
+#day {
+  x: 50%-40;
+  y: 0+80;
+}
+
+#suffix{
+  fill: white;
+  x: 50%+60;
+  y: 0+80;
+}
+
+
+#hour {
+  x: 50%-100;
+  y: 50%+40;
+}
+
+#minute {
+  x: 50%+20;
+  y: 50%+40;
+}
+
+#pm{
+  fill: white;
+  x: 50%+120;
+  y: 50%+40;
+}
